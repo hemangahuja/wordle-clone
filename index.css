@@ -1,3 +1,41 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+input{
+    padding: 0.3rem;
+    margin: 0.2rem;
+    width: 3rem;
+    text-align: center;
+    background-color: beige;
+    border-radius: 1rem;
+    box-shadow: 1rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#submitbutton{
+    padding: 1rem;
+    border-radius: 1.5rem;
+
+}
 #green {
     color: green;
     margin: 1rem;

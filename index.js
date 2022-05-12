@@ -41,7 +41,7 @@ const checkWord = () => {
         return;
     }
     tryCounter++;
-    let elem = `<div>`;
+    let elem = `<div class="check">`;
     for (let i = 0; i < word.length; i++) {
         const indexes = [...myWord.matchAll(word[i])];
         if (indexes.length) {
