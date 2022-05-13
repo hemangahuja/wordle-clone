@@ -24,17 +24,17 @@ input{
     justify-content: center;
     align-items: center;
 }
-#submit{
+#submit,#copy{
     display: flex;
     padding: 1rem;
     justify-content: center;
     align-items: center;
     color: white;
 }
-#submitbutton{
+#submitbutton,#copybutton{
     padding: 1rem;
     border-radius: 1.5rem;
-
+    margin: 1%;
 }
 #green {
     color: green;
